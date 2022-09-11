@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color: burlywood;
+    --H3-color:rgb(255,109,56);
+    --input-color:crimson;
+}
+.dark-mode{
+    --background-color:rgb(241, 103, 103);
+    --H3-color:rgb(231, 160, 135);
+    --input-color:rgb(184, 45, 73);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+}
+
+h3{
+    font-size: 40px;
+    color:var(--H3-color);
+    margin-bottom: 12px;
+}
+
+input{    
+    font-size: 25px;
+    color: var(--input-color);
+    padding: 12px;
+}
+
+button{
+    font-size: 20px;
+    padding: 6px 12px;
+    margin-bottom:12px ;
+}
+p{
+    font-size: 20px;
+    color: var(--H3-color);
+    line-height: 1.5;
+}
