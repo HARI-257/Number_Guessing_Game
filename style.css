@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 :root{
-    --background-color: burlywood;
-    --H3-color:rgb(255,109,56);
-    --input-color:crimson;
+    --background-color: #FFDDD2;
+    --H3-color:#FF8DC7;
+    --input-color:#FFACC7;
 }
 .dark-mode{
     --background-color:rgb(241, 103, 103);
@@ -32,12 +32,16 @@ input{
     font-size: 25px;
     color: var(--input-color);
     padding: 12px;
+    border: none;
 }
 
 button{
     font-size: 20px;
     padding: 6px 12px;
     margin-bottom:12px ;
+    background-color: var(--H3-color);
+    color: var(--background-color);
+    border: none;
 }
 p{
     font-size: 20px;
